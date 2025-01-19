@@ -21,6 +21,7 @@ fn main() -> Result<()> {
                 println!("Novo endereço gerado: {}", address);
             }
         }
+        
         // Se o comando for CheckBalance
         Commands::CheckBalance { address } => {
             // Consulta o saldo do endereço
