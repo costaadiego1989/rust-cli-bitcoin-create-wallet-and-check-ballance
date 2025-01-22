@@ -11,7 +11,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 
 ## Instalação
 
-1. Clone este repositório: git clone https://github.com/seu-usuario/bitcoin-wallet-cli.git
+1. Clone este repositório: git clone https://github.com/costaadiego1989/bitcoin-wallet-cli.git
    cd bitcoin-wallet-cli
 
 2. Configure o arquivo .env com as credenciais do Bitcoin Core:
