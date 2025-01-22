@@ -5,9 +5,10 @@ edition = "2021"
 
 [dependencies]
 
-bitcoin = "0.30.1"          // Biblioteca principal do Bitcoin
-bitcoincore-rpc = "0.16.0"  // Para comunicação com nó Bitcoin
-clap = { version = "4.4", features = ["derive"] }  // Para criar CLI
-anyhow = "1.0"              // Tratamento de erros
-rand = "0.8"                // Geração de números aleatórios
-secp256k1 = { version = "0.27", features = ["rand"] }  // Criptografia
+bitcoin = "0.30.1"          
+bitcoincore-rpc = "0.16.0"  
+clap = { version = "4.4", features = ["derive"] }  
+anyhow = "1.0"              
+rand = "0.8"
+dotenv = "0.15"                
+secp256k1 = { version = "0.27", features = ["rand"] }  
